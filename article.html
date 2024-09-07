@@ -15,17 +15,16 @@
 
     <nav>
         <div class="logo_div">
-            <img src="./images/main _images/logo1.jpg" alt="logo">
+            <a href="#">LOGO</a>
         </div>
         <div class="navigation">
             <ul>
                 <i class="fas fa-times" id="menu-close"></i>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
-                <li><a class="active" href="./blog.html">Blog</a></li>
+                <li><a class="active" href="./article.html">Article</a></li>
                 <li><a href="course.html">literature</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <button class="nav-btn">Join For Fee</button>
             </ul>
             <img src="./images//menu.png" alt="312das" id="menu-btn">
         </div>
@@ -34,62 +33,36 @@
     <!-- Home -->
 
     <section id="about-home">
-        <h2> Blog /</h2>
     </section>
 
     <!-- Blog -->
 
-    <section id="blog-container">
-        <div class="blogs">
-            <div class="post">
-                <img src="./images/b1.jpg" alt="da">
-                <h3>Learn Literature In The Easiest Way</h3>
+    <section id="articles_box">
+        <h1>
+            There are articles
+        </h1>
+
+        <div class="main_div_articles">
+
+            <div class="article" onclick="to_artciles()">
+                <h3>
+                    -- header --
+                </h3>
+                <div class="article_details">
+                    <button>hakimov</button>
+                    <p>Publishen on 4 Sep 2024</p>
+                </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipicing elit. Exercitationem
-                    eligendi laudantium iure dicta eaqua, veritatis rem similique,
-                    sapiente magni dolorem doloribus quibusdam molestiae alias officiis cum.
-                    Tenetur omnis quos harum.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, deserunt odit fuga nulla
+                    perspiciatis dicta, a ullam ipsam soluta sed nemo eaque! Iste incidunt ipsa nesciunt tempore eos
+                    commodi fugiat hic porro totam veniam ...
                 </p>
-                <a href="post.html">Read More</a>
+                <button class="first_article_btn">+</button>
+                <button class="second_article_btn">-</button>
             </div>
-            <div class="post">
-                <img src="./images/b2.jpg" alt="da">
-                <h3>Learn Literature In The Easiest Way</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipicing elit. Exercitationem
-                    eligendi laudantium iure dicta eaqua, veritatis rem similique,
-                    sapiente magni dolorem doloribus quibusdam molestiae alias officiis cum.
-                    Tenetur omnis quos harum.
-                </p>
-                <a href="post.html">Read More</a>
-            </div>
-            <div class="post">
-                <img src="./images/b3.jpg" alt="da">
-                <h3>Learn Literature In The Easiest Way</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipicing elit. Exercitationem
-                    eligendi laudantium iure dicta eaqua, veritatis rem similique,
-                    sapiente magni dolorem doloribus quibusdam molestiae alias officiis cum.
-                    Tenetur omnis quos harum.
-                </p>
-                <a href="post.html">Read More</a>
-            </div>
+
         </div>
 
-        <div class="cate">
-            <h2>Categories</h2>
-            <hr>
-            <a href="#">Try Literature</a>
-            <hr>
-            <a href="#">Learn Wonders</a>
-            <hr>
-            <a href="#">Read Books</a>
-            <hr>
-            <a href="#">Fell The Art</a>
-            <hr>
-            <a href="#">Get Smart</a>
-            <hr>
-        </div>
     </section>
 
     <!-- Footer -->
@@ -155,6 +128,11 @@
                 window.location.href = 'contact.html';
             })
         });
+
+        function to_artciles() {
+            window.location.href = 'articles_space1.html'
+        }
+
     </script>
 
 </body>
